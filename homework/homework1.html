@@ -27,10 +27,10 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
-<!-- 적용방법 2 : cdn -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- 적용방법 3 -->
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script> -->
 
 </head>
 
@@ -47,7 +47,7 @@ function check() {
             return false;
           } else if (!form.number_order.value) {
             alert("수량을 입력하세요")
-            order_form.number.focus();
+            order_form.number_order.focus();
 
             return false;
           } else if (!form.address.value) {
